@@ -8,16 +8,16 @@ public class ShowTwoNumbers {
         String strNotification = "You've just entered: ";
 
         strNum1 = JOptionPane.showInputDialog(null,
-                    "Please input the first number: ", "Input the first number",
+                    "Tran Sy Hieu - 20215053 - Please input the first number: ", "Tran Sy Hieu - 20215053 - Input the first number",
                     JOptionPane.INFORMATION_MESSAGE);
         strNotification += strNum1 + " and ";
 
         strNum2 = JOptionPane.showInputDialog(null,
-                    "Please input the first number: ", "Input the second number",
+                    "Tran Sy Hieu - 20215053 - Please input the second number: ", "Tran Sy Hieu - 20215053 - Input the second number",
                     JOptionPane.INFORMATION_MESSAGE);
         strNotification += strNum2;    
 
-        JOptionPane.showMessageDialog(null, strNotification, "Show two numbers", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, strNotification, "Tran Sy Hieu - 20215053 - Show two numbers", JOptionPane.INFORMATION_MESSAGE);
         System.exit(0);       
     }
 }
