@@ -1,0 +1,11 @@
+ What happens if users choose “Cancel”?
+→ Nếu người dùng chọn "Cancel", chương trình hiện lên thông báo giống như khi người dùng
+chọn "No".
+2. How to customize the options to users, e.g. only two options: “Yes” and “No”, or “I do” and “I
+don’t”.
+→ Để customize thành 2 options, sử dụng phương thức showOptionDialog của lớp JOptionPane:
+JOptionPane . showOptionDialog (
+null , " Do ␣ you ␣ want ␣ to ␣ change ␣ to ␣ the ␣ first ␣ class ␣ ticket ? " ,
+null , JOptionPane . YES_NO_OPTION ,
+JOptionPane . QUESTION_MESSAGE , null , " YES " , " NO "
+);
